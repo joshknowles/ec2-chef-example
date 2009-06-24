@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "mysql-server",
+    "libmysqlclient15-dev"
+  ],
+  
+  "gems": [
+    { "name": "mysql", "version": "2.7" }
+  ],
+  
+  "recipes": [ "packages", "gems" ]
+}
